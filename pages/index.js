@@ -8,7 +8,7 @@ export default function Home() {
         <meta name="description" content="Pizza Shop" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      homepage
+      HomePage
     </div>
   );
 }
