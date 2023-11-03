@@ -1,3 +1,4 @@
+import Featured from "@/components/Featured";
 import Head from "next/head";
 
 export default function Home() {
@@ -8,7 +9,6 @@ export default function Home() {
         <meta name="description" content="Pizza Shop" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      HomePage
     </div>
   );
 }
