@@ -1,3 +1,29 @@
 .container {
-    
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc {
+    color: #444;
+    font-size: 24px;
+    width: 70%;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: bold;
+    color: brown;
+    padding: 20px;
+    text-shadow: 2px 2px 2px #ccc;
 }

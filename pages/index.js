@@ -1,4 +1,3 @@
-import Featured from "@/components/Featured";
 import Head from "next/head";
 
 export default function Home() {
