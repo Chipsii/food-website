@@ -1,15 +1,11 @@
-import Featured from "./Featured";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import PizzaList from "./PizzaList";
 
-const Layout = ({ Children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Featured />
-      <PizzaList/>
-      {Children}
+      {children}
       <Footer />
     </>
   );
