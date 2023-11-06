@@ -81,3 +81,65 @@
   margin-top: 20px;
   background-color: crimson;
 }
+
+@media screen and (max-width: 480px) {
+  .container{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .imgContainer{
+    width: 30vw;
+    height: 30vw;
+    margin: 0;
+  }
+
+  .trTitle{
+    display: none;
+  }
+
+  .tr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .name, .total{
+    font-size: 24px;
+  }
+
+  .extras, .price, .quantity{
+    font-size: 21px;
+    color: black;
+  }
+
+  .price::before{
+    content: "Price: ";
+    font-weight: bold;
+    color: black;
+  }
+
+  .quantity::before{
+    content: "Quantity: ";
+    font-weight: bold;
+  }
+
+  .total::before{
+    content: "Total: ";
+    font-weight: bold;
+  }
+
+  .wrapper{
+    width: 100%;
+  }
+}

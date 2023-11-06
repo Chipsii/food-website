@@ -27,3 +27,15 @@
     padding: 20px;
     text-shadow: 2px 2px 2px #ccc;
 }
+
+@media screen and (max-width: 480px) {
+    .title {
+        text-align: center;
+    }
+
+    .desc {
+        text-align: center;
+        width: 90%;
+    }
+    
+}

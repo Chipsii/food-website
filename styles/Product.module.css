@@ -119,3 +119,38 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .imgContainer{
+        width: 70vw;
+        height: 70vw;
+        margin-top: 20px;
+    }
+
+    .title{
+        margin: 5px;
+    }
+
+    .sizes{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .ingredients{
+        flex-direction: column;
+    }
+
+    .option{
+        margin: 10px;
+    }
+
+    .checkbox{
+      margin-right: 5px;
+    }
+}

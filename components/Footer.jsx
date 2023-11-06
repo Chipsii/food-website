@@ -11,7 +11,8 @@ const Footer = () => {
         <div className={styles.card}>
           <h2 className={styles.motto}>
             OH YES, WE DID. THE LAMA PIZZA, WELL BAKED SLICE OF PIZZA.
-          </h2>
+          </h2>{" "}
+          <br />
         </div>
         <div className={styles.card}>
           <h1 className={styles.title}>FIND OUT RESTURANTS</h1>
@@ -32,7 +33,8 @@ const Footer = () => {
             1600 Aamphitheatre Parkway #344.
             <br /> Mountain View, CA
             <br /> (123) 456-7890
-          </p>
+          </p>{" "}
+          <br />
         </div>
         <div className={styles.card}>
           <h1 className={styles.title}>WORKING HOURS</h1>
